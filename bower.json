@@ -1,0 +1,23 @@
+{
+  "name": "@kernel/serializer",
+  "description": "Service Container and Service Provider for Kernel Framework",
+  "main": "dist/index.js",
+  "author": "Gus <gus@brid-it.com>",
+  "license": "MIT",
+  "keywords": [
+    "kernel",
+    "framework",
+    "laravel",
+    "serializer",
+    "json",
+    "xml"
+  ],
+  "homepage": "https://github.com/kernel-js/serializer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
