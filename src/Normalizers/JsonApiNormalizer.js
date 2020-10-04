@@ -172,7 +172,7 @@ export default class JsonApiNormalizer extends AbstractNormalizer
           let relationship = normalized.relationships[key];
 
           if (Array.isArray(normalized.relationships[key].data)) {
-            relationship = this.denormalizeCollection(normalized.relationships[key]);
+            relationship = this.denormalizeCollection(normalized.relationships[key].data);
           } else if (normalized.relationships[key].data) {
             relationship = this.denormalizeEntity(normalized.relationships[key].data);
           }
